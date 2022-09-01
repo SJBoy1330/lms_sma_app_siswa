@@ -1,0 +1,8 @@
+.bg-button{
+    background-color: #E5E5E5;
+    border: none;
+}
+
+.btn.bg-button:hover{
+    background-color: #E5E5E5;
+}

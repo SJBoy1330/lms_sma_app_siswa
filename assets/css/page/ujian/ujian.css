@@ -1,0 +1,297 @@
+.card .card-body.ujian{
+    height: 90px;
+}
+
+.card .card-body.detail-ujian{
+    height: 150px;
+}
+
+.tab-wali {
+    color: #303030;
+}
+
+.tab-wali button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: rgb(68 68 68 / 67%);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #EC3528;
+    font-weight: 600;
+}
+
+.tab-wali button.active {
+    border-bottom: 5px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.tabcontent-wali {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tablinknya-tugas-ujian {
+    position: absolute;
+    width: 100vw;
+    background-color: #EC3528;
+}
+
+.badge.bg-time-exam {
+    background-color: #fcd7d7;
+    border-radius: 0px 20px 0px 15px;
+}
+
+.badge.bg-history-exam {
+    background-color: #D4FFF3;
+    border-radius: 0px 20px 0px 15px;
+}
+
+.badge.bg-history-exam-danger {
+    background-color: #fcd7d7;
+    border-radius: 0px 20px 0px 15px;
+}
+
+.btn.btn-44.number-exam {
+    background-color: #FFE6E6;
+}
+
+.btn.btn-44.done-exam {
+    background-color: #D4FFF3;
+}
+
+.btn-44 {
+    height: 44px !important;
+    line-height: 45px !important;
+    width: 44px !important;
+    padding: 0 !important;
+}
+
+.card.berlangsung{
+    opacity: 50% !important;
+}
+
+
+/* Pilgan */
+
+label {
+    width: 100%;
+}
+
+.card.card-default {
+    border-radius: 8px;
+}
+
+.card-input-element {
+    display: none;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked+.card-input {
+    box-shadow: 0 0 1px 1px #2ecc71;
+    background-color: #E2FFF7;
+}
+
+
+
+/* Checkbox */
+
+label {
+    width: 100%;
+}
+
+.card.card-default-2 {
+    border-radius: 8px;
+}
+
+.card-input-element-2 {
+    display: none;
+}
+
+.card-input-2:hover {
+    cursor: pointer;
+}
+
+.card-input-element-2:checked+.card-input-2 {
+    box-shadow: 0 0 1px 1px #2ecc71;
+    background-color: #E2FFF7;
+}
+
+
+.footer-ujian {
+    min-height: 145px;
+    background-color: #F3F3F2;
+}
+
+div.timer-exam {
+    width: 40%;
+    border-radius: 10px;
+    background-color: #FFE6E6;
+    border: 1px solid #EC3528;
+}
+
+.btn-outline-warning {
+    color: #FFBD17;
+    border-color: #FFBD17;
+}
+
+.btn-outline-warning:hover {
+    color: #000;
+    background-color: #FFBD17;
+    border-color: #FFBD17;
+}
+
+.btn-check:focus+.btn-outline-warning,
+.btn-outline-warning:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 189, 23, 0.5);
+}
+
+.btn-check:checked+.btn-outline-warning,
+.btn-check:active+.btn-outline-warning,
+.btn-outline-warning:active,
+.btn-outline-warning.active,
+.btn-outline-warning.dropdown-toggle.show {
+    color: #000;
+    background-color: #FFBD17;
+    border-color: #FFBD17;
+}
+
+.btn-check:checked+.btn-outline-warning:focus,
+.btn-check:active+.btn-outline-warning:focus,
+.btn-outline-warning:active:focus,
+.btn-outline-warning.active:focus,
+.btn-outline-warning.dropdown-toggle.show:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 189, 23, 0.5);
+}
+
+.btn-outline-warning:disabled,
+.btn-outline-warning.disabled {
+    color: #FFBD17;
+    background-color: transparent;
+}
+
+
+.next-button {
+    width: 45px;
+    height: 45px;
+}
+
+.ragu-button {
+    height: 45px;
+}
+
+.previous-button {
+    width: 45px;
+    height: 45px;
+}
+
+.solid-line {
+    width: 100%;
+    border: 1px solid #303030;
+}
+
+/* Tablink Penomoran */
+.tab {
+    color: #C4C4C4;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #EC3528;
+    border: 1px solid #EC3528;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    font-size: 13px;
+    line-height: 10px
+}
+
+.tab button.active {
+    border: 2px solid #EC3528;
+    color: #FFFFFF;
+    background-color: #EC3528;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+button.btn-ragu_ragu {
+    width: 45px;
+    height: 45px;
+    font-size: 13px;
+    line-height: 10px;
+    border-radius: 100px;
+    background-color: #ffbd17;
+    border: #ffbd17;
+    color: #FFFFFF
+}
+
+.offcanvas-top {
+    height: 100vh;
+}
+
+.offcanvas.offcanvas-top.show {
+    background-color: #FFE6E6;
+}
+
+figure.image-ujian {
+    height: 129px;
+}
+
+figure.image-ujian-jawaban {
+    height: 114px;
+}
+
+@media only screen and (max-width: 320px) {
+    figure.image-ujian {
+        height: 114px !important;
+        width: 114px !important;
+    }
+
+    figure.image-ujian-jawaban {
+        height: 104px !important;
+        width: 104px !important;
+    }
+}
+
+.color-f73563 {
+    color: #f73563;
+}
+
+/* Pembahasan */
+.card-input-true{
+    box-shadow: 0 0 1px 1px #2ecc71;
+    background-color: #E2FFF7;
+}
+
+
+.card-input-wrong{
+    box-shadow: 0 0 1px 1px #EC3528;
+    background-color: #FFE6E6;
+}
+
+.list-group-item.true{
+    background-color: #E2FFF7;
+}
+
+.list-group-item.wrong{
+    background-color: #FFE6E6;
+}
+

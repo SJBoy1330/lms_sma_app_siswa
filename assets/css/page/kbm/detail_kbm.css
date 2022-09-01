@@ -1,0 +1,23 @@
+.card.card-chatting{
+    width: 80px;
+}
+
+.bg-8F8F8F{
+    background-color: #8F8F8F;
+}
+
+.color-8F8F8F{
+    color: #8F8F8F;
+}
+
+.avatar-presensi-outline-disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #8F8F8F;
+}
+
+.avatar-presensi-inline-disabled {
+    background-color: #8F8F8F;
+}
